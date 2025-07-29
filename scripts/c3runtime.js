@@ -1450,10 +1450,6 @@ self.C3_ExpressionFuncs = [
 			return () => f0("energy1");
 		},
 		() => -25,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0("click");
-		},
 		() => 10,
 		p => {
 			const n0 = p._GetNode(0);
@@ -1486,7 +1482,6 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("diamond-pickaxe");
 		},
-		() => "click",
 		() => 7,
 		() => 180,
 		() => "energy1:max",
